@@ -5,7 +5,7 @@ const Hero = ({ scrollToSection }) => {
     { icon: 'fab fa-linkedin', url: 'https://linkedin.com/in/romeoestradaespino', label: 'LinkedIn' },
     { icon: 'fab fa-github', url: 'https://github.com/resquar3d', label: 'GitHub' },
     { icon: 'fab fa-twitter', url: 'https://twitter.com/resquar3d', label: 'Twitter' },
-    { icon: 'fas fa-envelope', url: 'mailto:romeo.estrada@example.com', label: 'Email' }
+    { icon: 'fas fa-envelope', url: 'mailto:resquar3d@gmail.com', label: 'Email' }
   ];
 
   const stats = [
@@ -51,7 +51,7 @@ const Hero = ({ scrollToSection }) => {
           <div className="profile-card">
             <div className="profile-image-container">
               <img 
-                src="public/20250728_110021.jpg" 
+                src="./src/assets/20250728_110021.png" 
                 alt="Romeo Estrada Espino" 
                 className="profile-image"
                 onError={(e) => {

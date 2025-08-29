@@ -5,8 +5,8 @@ const Contact = () => {
     {
       icon: 'fas fa-envelope',
       label: 'Email',
-      value: 'romeo.estrada@example.com',
-      link: 'mailto:romeo.estrada@example.com'
+      value: 'resquar3d@gmail.com',
+      link: 'mailto:resquar3d@gmail.com'
     },
     {
       icon: 'fab fa-linkedin',
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           
           <div className="contact-cta">
-            <a href="mailto:romeo.estrada@example.com" className="btn btn-primary">
+            <a href="mailto:resquar3d@gmail.com" className="btn btn-primary">
               <i className="fas fa-paper-plane"></i> Send Message
             </a>
           </div>
