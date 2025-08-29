@@ -51,7 +51,7 @@ const Hero = ({ scrollToSection }) => {
           <div className="profile-card">
             <div className="profile-image-container">
               <img 
-                src="/src/assets/20250728_110021.jpg" 
+                src="public/20250728_110021.jpg" 
                 alt="Romeo Estrada Espino" 
                 className="profile-image"
                 onError={(e) => {
