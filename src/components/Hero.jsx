@@ -5,7 +5,7 @@ const Hero = ({ scrollToSection }) => {
     { icon: 'fab fa-linkedin', url: 'https://linkedin.com/in/romeoestradaespino', label: 'LinkedIn' },
     { icon: 'fab fa-github', url: 'https://github.com/resquar3d', label: 'GitHub' },
     { icon: 'fab fa-twitter', url: 'https://twitter.com/resquar3d', label: 'Twitter' },
-    { icon: 'fas fa-envelope', url: 'mailto:romeo.estrada@example.com', label: 'Email' }
+    { icon: 'fas fa-envelope', url: 'mailto:resquar3d@gmail.com', label: 'Email' }
   ];
 
   const stats = [
