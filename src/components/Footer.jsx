@@ -6,7 +6,7 @@ const Footer = () => {
     { icon: 'fab fa-linkedin', url: 'https://linkedin.com/in/romeoestradaespino' },
     { icon: 'fab fa-facebook', url: 'https://facebook.com/reespino' },
     { icon: 'fab fa-instagram', url: 'https://instagram.com/resquar3d' },
-    { icon: 'fab fa-youtube', url: 'https://youtube.com/@romeoestrada' },
+    { icon: 'fab fa-youtube', url: 'https://www.youtube.com/@resquar3d534' },
     { icon: 'fab fa-twitter', url: 'https://twitter.com/resquar3d' }
   ];
 
