@@ -52,16 +52,13 @@ const Hero = ({ scrollToSection }) => {
           <div className="profile-card">
             <div className="profile-image-container">
               <img 
-<<<<<<< HEAD
                 src={profileImage} 
-=======
-                src="./src/assets/20250728_110021.png" 
->>>>>>> d611af025e3202020c96bad3833c08b44c3bef42
                 alt="Romeo Estrada Espino" 
                 className="profile-image"
                 onError={(e) => {
-                  e.target.style.display = 'none';
-                  e.target.nextSibling.style.display = 'flex';
+                  e.currentTarget.style.display = 'none';
+                  const fallback = e.currentTarget.nextSibling;
+                  if (fallback) fallback.style.display = 'flex';
                 }}
               />
               <div className="profile-image-fallback" style={{ display: 'none', width: '100%', height: '100%', borderRadius: '50%', background: 'var(--gradient-brand)', alignItems: 'center', justifyContent: 'center', fontSize: '3rem', fontWeight: 'bold', color: 'white' }}>
