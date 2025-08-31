@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from '../assets/20250728_110021.png';
 
 const Hero = ({ scrollToSection }) => {
   const socialLinks = [
@@ -51,7 +52,7 @@ const Hero = ({ scrollToSection }) => {
           <div className="profile-card">
             <div className="profile-image-container">
               <img 
-                src="./src/assets/20250728_110021.png" 
+                src={profileImage} 
                 alt="Romeo Estrada Espino" 
                 className="profile-image"
                 onError={(e) => {
