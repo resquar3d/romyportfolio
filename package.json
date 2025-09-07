@@ -6,11 +6,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build": "vite build", 
+    "build:vercel": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "deploy:vercel": "git checkout vercel-deploy && git rebase main && git push origin vercel-deploy",
+    "sync:branches": "chmod +x scripts/sync-branches.sh && ./scripts/sync-branches.sh"
   },
   "dependencies": {
     "react": "^19.1.1",

@@ -33,7 +33,7 @@ const Footer = () => {
         </p>
         
         <div className="footer-copyright">
-          © Developed 2025 • Romeo Estrada Espino • TwinSparks Developer • All rights reserved.
+          © Developer 2025 • R.E. Espino • TwinSparks Developement • All rights reserved.
         </div>
       </div>
     </footer>
