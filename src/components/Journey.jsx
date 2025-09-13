@@ -13,14 +13,14 @@ const Journey = () => {
     },
     {
       date: 'Mar 2020 - Present',
-      title: 'Servicemedewerker',
+      title: 'Service Employee',
       organization: 'TotalEnergies Zandvoort, Servauto Nederland B.V',
       description: 'Full-time cashier position providing customer service excellence at fuel station. Handling transactions, inventory management, and maintaining service standards in a fast-paced retail environment.',
       tags: ['Customer Service', 'Retail Operations', 'Cash Management']
     },
     {
       date: 'Oct 2011 - Feb 2020',
-      title: 'Servicemedewerker',
+      title: 'Service Employee',
       organization: 'BP Zandvoort, Commandeur Tankstations B.V',
       description: 'Managed centralized tasks and cashiering responsibilities for 8+ years. Developed strong communication and salesmanship skills while ensuring smooth daily operations and customer satisfaction.',
       tags: ['Communication', 'Salesmanship', 'Office Equipment']
