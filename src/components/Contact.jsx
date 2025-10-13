@@ -9,7 +9,7 @@ const Contact = () => {
       link: "mailto:resquar3d@gmail.com",
     },
     {
-      icon: "fab fa-phone",
+      icon: "fas fa-phone",
       label: "Phone",
       value: "+31 (06) 41723115",
       link: "tel:+31641723115",
@@ -17,7 +17,7 @@ const Contact = () => {
     {
       icon: "fab fa-linkedin",
       label: "LinkedIn",
-      value: "/in/romeoestradaespino",
+      value: "/in/reespino",
       link: "https://www.linkedin.com/in/reespino",
     },
     {
