@@ -45,7 +45,7 @@ const Navigation = ({ isScrolled, activeSection, scrollToSection }) => {
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <i className="fa fa-briefcase"></i> Website
+          <i className="fab fa-briefcase"></i> Website
         </a>
       </div>
 
