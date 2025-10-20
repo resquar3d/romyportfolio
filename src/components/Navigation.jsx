@@ -40,12 +40,12 @@ const Navigation = ({ isScrolled, activeSection, scrollToSection }) => {
           </a>
         ))}
         <a 
-          href="https://www.facebook.com/reespino" 
+          href="https://twinsparks.dev/" 
           className="nav-cta" 
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <i className="fab fa-facebook"></i> Facebook
+          <i className="fa fa-briefcase"></i> Website
         </a>
       </div>
 
